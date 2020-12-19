@@ -73,7 +73,7 @@ class Cards extends Component {
               <br /> <br />
               <div id="share-btn">
                 <FacebookShareButton
-                  url={"/https://react-cards-demo.herokuapp.com/card"}
+                  url={"https://react-cards-demo.herokuapp.com/card"}
                   quote={"Kam bol be"}
                 >
                   <FacebookIcon size={30} />
