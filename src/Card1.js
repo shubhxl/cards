@@ -12,7 +12,8 @@ return (
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta property="image" content={image} />
         <meta name="description" content="This is the content for Card1" />
-
+        <meta property="og:image" content={image} />
+        <meta content="image/*" property="og:image:type" />
     </Helmet>
         <h2 className="text-center"> Here you will find content for Card1</h2>
     </React.Fragment>
